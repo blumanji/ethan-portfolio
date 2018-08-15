@@ -1,0 +1,120 @@
+html {
+  font-size: 62.5%;
+  font-family: monospace, helvetica, arial;
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: ghostwhite;
+}
+h1 {
+color: red;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.header {
+ display: flex;
+ width: 100%;
+ height: 6rem;
+ font-size: calc(1.0rem + 1.4vw);
+  line-height: calc(1.4rem + 1.8vw);
+ margin-bottom:3rem;
+ background-color: skyblue;
+}
+
+.header > a {
+  align-self:center;
+  padding: 3rem 1rem;
+  border-right: 0.3rem solid orange;
+}
+
+.header > a:link {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+  color: black;
+}
+
+.header > a:visited {
+  text-decoration: none;
+    font-weight: 500;
+    background-color: transparent;
+    color: black;
+}
+
+.header > a:hover {
+  text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+    color: orange;
+}
+
+.header > a:active {
+  text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+    color: teal;
+}
+
+.left-header{
+  margin-right: auto;
+  
+}
+
+.showcase {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-content: middle;
+  margin-bottom: 12vmin;
+}
+
+.showcase-list{
+  margin: auto;
+  font-size: calc(1.0rem + 1.4vw);
+  line-height: calc(1.4rem + 1.8vw);
+  width: 40vw;
+  padding-left: 4vw;
+  padding-right: 2vw;
+  word-wrap: break-word;
+}
+
+.showcase-img {
+  width: 40vw;
+  height: auto;
+  max-height: 100%;
+  border-left: 0.3rem solid orange;
+  padding-left: 6vw;
+  padding-right: 4vw;  
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+.image-cell {
+  width: 30rem;
+  height: 26rem;
+  margin-bottom: 3rem;
+  padding: 1rem;
+  padding-right:4rem;
+  display: flex;
+  justify-content: center;
+  border-right: 0.3rem solid orange;
+}
+
+.image-cell > img {
+  max-height: 100%;
+  max-width: 100%;
+  width:auto;
+  height: auto;
+  margin: auto;
+  box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.2);
+}
