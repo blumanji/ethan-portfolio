@@ -7,9 +7,6 @@ body {
   font-size: 1.6rem;
   background-color: ghostwhite;
 }
-h1 {
-color: red;
-}
 
 .container {
   max-width: 100%;
@@ -118,3 +115,41 @@ color: red;
   margin: auto;
   box-shadow: 0.3rem 0.3rem 0.3rem rgba(0,0,0,0.2);
 }
+
+.contact {
+  margin-top: 3rem;
+  padding: 1.6rem;
+  font-size: calc(1.0rem + 1.4vw);
+  line-height: calc(1.4rem + 1.8vw);
+  background-color: skyblue;
+  color: black;
+  
+}
+
+.contact a:link {
+  text-decoration: none;
+  font-weight: 500;
+  background-color: transparent;
+  color: teal;
+}
+  .contact a:visited {
+  text-decoration: none;
+    font-weight: 500;
+    background-color: transparent;
+    color: teal;
+}
+
+.contact a:hover {
+  text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+    color: orange;
+}
+
+.contact a:active {
+  text-decoration: none;
+    font-weight: 700;
+    background-color: transparent;
+    color: teal;
+}
+
